@@ -1,7 +1,111 @@
-<h1>Pages: DonghuaLau.github.io</h1>
-#Header 1
-##Header 2
-###Header 3
-1.hello
-2.yes
-3.OK
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Welcome to Donghua.Lau Github Page</title>
+
+    <link rel="shortcut icon" type="image/jpeg" href="assets/images/avatar_64.jpg">
+
+    <script src="assets/js/jquery-3.1.0.min.js" type="text/javascript"></script>
+    <script src="assets/js/semantic.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" media="screen" href="assets/css/semantic.min.css">
+		
+<style>
+
+body{
+	font-family: "Microsoft YaHei","微软雅黑",Helvetica,Arial,Tahoma;
+}
+.main-body{
+	min-height: 600px;
+}
+.logo{
+	border-radius: 50%;
+}
+.ui{
+	font-family: "Microsoft YaHei","微软雅黑",Helvetica,Arial,Tahoma !important;
+}
+.ui.menu{
+	border-radius: 0px;
+}
+.input-spec {
+	width:20%;
+}
+.header-title{
+    border-left: 5px solid #84e810 !important;
+    padding-left: 0.6rem !important;
+	margin-bottom: 1.8rem !important;
+}
+.update-link{
+    color: #888;
+    font-size: 1.3rem;
+    margin: 0 10px 0 10px;
+	cursor: pointer;
+}
+</style>
+
+</head>
+<body>
+<div class="main-body">
+  <div class="ui borderless main menu">
+    <div class="ui container">
+      <a href="#" class="header item">
+        <img class="logo" src="assets/images/avatar_64.jpg">
+      </a>
+      <a href="#" class="item active">Home</a>
+	  <a href="javascript:;" class="item">Introduction</a>
+	  <a href="javascript:;" class="item">About</a>
+
+      <div class="ui right floated dropdown item">
+        <a class="item" style="padding:0;" href="javascript:;">More</a>
+        <i class="dropdown icon" style="margin-left:0.3rem;"></i>
+        <div class="menu">
+          <a class="item" href="#">menu1</a>
+          <a class="item" href="#">menu1</a>
+        </div>
+      </div><!-- .dropdown -->
+
+    </div><!-- .container -->
+  </div>
+
+  <script>
+  $(document)
+    .ready(function() {
+
+      // show dropdown on hover
+      $('.main.menu  .ui.dropdown').dropdown({
+        on: 'hover'
+      });
+    })
+  ;
+  </script>
+
+<div class="ui center aligned container">
+	<div style=""></div>
+	<h1>Donghua.Lau Github Page</h1>
+	<h2>What is GitHub Pages?</h2>
+	<div class="ui" style="text-align:left;font-size:1.2rem;line-height:2rem;">
+		<p>GitHub Pages is a static site hosting service.</p>
+		<p>GitHub Pages is designed to host your personal, organization, or project pages directly from a GitHub repository. To learn more about the different types of GitHub Pages sites, see "User, organization, and project pages."</p>
+		<p>You can create and publish GitHub Pages online using the Jekyll Theme Chooser. If you prefer to work locally, you can use GitHub Desktop or the command line.</p>
+		<p>GitHub Pages is a static site hosting service and doesn't support server-side code such as, PHP, Ruby, or Python.</p>
+	</div>
+</div>
+
+
+</div> <!-- .main-body -->
+
+<div class="ui" style="margin-top:40px;"></div>
+<div class="ui center aligned container" style="min-height:60px;">
+  <div class="ui">
+    <div class="ui" style="padding-top:20px;"></div>
+    <div class="ui">
+		@2017 <a href="#">Donghua.Lau Github Page</a>
+	</div>
+  </div>
+</div>
+
+</body>
+</html>
